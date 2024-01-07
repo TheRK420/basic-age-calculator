@@ -13,7 +13,7 @@ function calculate(){
     let current = new Date();
 
     let d2 = current.getDate();
-    let m2 = current.getMonth();
+    let m2 = current.getMonth()+1;
     let y2 = current.getFullYear();
 
     let d3, m3, y3;
